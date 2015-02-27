@@ -1,4 +1,4 @@
-apply plugin: 'application'
+aapply plugin: 'application'
 apply plugin: 'protobuf'
 
 description = "grpc Examples"
