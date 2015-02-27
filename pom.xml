@@ -9,6 +9,7 @@
 
   <modules>
     <module>core</module>
+    <module>auth</module>
   </modules>
 
   <name>parent</name>
@@ -19,6 +20,12 @@
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-core</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+      </dependency>
+      
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
